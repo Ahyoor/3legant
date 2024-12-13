@@ -88,27 +88,30 @@ header .search-bar>button {
 
 .section-product1a {
     display: flex;
-    
+
     /* justify-content: space-between; */
     /* border: 1px solid red; */
     width: 550px;
-   gap: 15px;
-   margin-top: 20px;
+    gap: 15px;
+    margin-top: 20px;
 }
 
 .left-product2a {
     display: flex;
     gap: 15px;
     /* border: 1px solid red; */
-    
+
 }
+
 .margin {
     margin-top: 10px;
-    
+
 }
-.aref{
+
+.aref {
     color: black;
 }
+
 .product1 {
     width: 550px;
     height: 160px;
@@ -117,12 +120,13 @@ header .search-bar>button {
     justify-content: space-between;
     margin-top: 10px;
 }
-.one{
+
+.one {
     margin-top: 15px;
 }
 
 
-.section-product2a{
+.section-product2a {
     display: flex;
     gap: 50px;
 }
@@ -132,10 +136,12 @@ header .search-bar>button {
     gap: 80px;
     margin-top: 10px;
 }
-.product2{
+
+.product2 {
     margin-top: 10px;
 
 }
+
 
 
 .left77 {
@@ -148,13 +154,13 @@ header .search-bar>button {
 .countdown {
     display: flex;
     gap: 20px;
-   
+
 
 }
 
 .box {
     border: 1px solid transparent;
-    width:  70px;
+    width: 70px;
     height: 80px;
     background-color: #F3F5F7;
     display: flex;
@@ -162,21 +168,24 @@ header .search-bar>button {
     align-items: center;
     font-size: 40px;
     font-weight: bold;
-    
+
 }
-.name{
+
+.name {
     text-align: center;
 }
 
 .product22 {
     display: flex;
 }
-.right-product{
+
+.right-product {
     display: flex;
     gap: 10px;
-   
+
 }
-.r-p{
+
+.r-p {
     border: 1px solid gray;
     border-radius: 8px;
     width: 95px;
@@ -185,7 +194,8 @@ header .search-bar>button {
     justify-content: center;
     align-items: center;
 }
-.r-r{
+
+.r-r {
     border: 1px solid gray;
     border-radius: 8px;
     width: 405px;
@@ -195,7 +205,8 @@ header .search-bar>button {
     justify-content: center;
     align-items: center;
 }
-.r-c{
+
+.r-c {
     border: 1px solid gray;
     border-radius: 8px;
     width: 500px;
@@ -208,6 +219,7 @@ header .search-bar>button {
     font-size: 20px;
 
 }
+
 .writeup {
     width: 250px;
     display: flex;
@@ -215,4 +227,40 @@ header .search-bar>button {
     display: inline 5px;
     margin-top: 15px;
 
+}
+
+/* slider cascading casccading style sheet */
+
+.trump {
+    height: 100vh;
+    width: 100%;
+}
+
+.slider-container {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+    overflow: hidden;
+
+
+}
+
+.slider {
+    display: flex;
+}
+
+.product-card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    flex-shrink: 0;
+
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
 }
