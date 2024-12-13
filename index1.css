@@ -1,0 +1,25 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.review {
+    display: flex;
+
+}
+
+.review-img-container {
+    border: 1px solid blue;
+    /* width: 200px;
+    height: 500px; */
+}

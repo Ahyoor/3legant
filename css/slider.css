@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.trump{
+    height: 100vh;
+    width: 100%;
+}
+.slider-container{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+    overflow: hidden;
+    
+
+}
+.slider{
+    display: flex;
+}
+.product-card{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    flex-shrink: 0;
+
+}
+.product-card img{
+    max-width: 100%;
+    height: auto;
+}
