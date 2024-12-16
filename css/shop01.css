@@ -12,6 +12,12 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
 /* HEADER STYLING */
 header .banner-container {
     background-color: #F3F5F7;
@@ -84,4 +90,51 @@ header .search-bar>button {
     background-color: transparent;
     cursor: pointer;
     ;
+}
+
+
+.relative{
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.page {
+    font-size: 50px;
+}
+
+.shop02 {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+
+}
+.shop03 {
+    border: 1px solid green;
+    display: flex;
+}
+.left-shop03{
+    border: 1px solid black;
+    width: 300px;
+    /* height: 200px; */
+}
+.right-shop03{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bed{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.aq {
+   margin-top: 10px;
 }

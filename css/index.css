@@ -101,6 +101,8 @@ header .search-bar>button {
   align-items: center;
   gap: 60px;
   margin-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
   /* max-width: 144px; */
   /* margin: auto; */
 
@@ -118,8 +120,9 @@ header .search-bar>button {
 .third-section {
   display: flex;
   justify-content: space-between;
-  margin-top: 15px;
-  margin-bottom: -56px;
+  gap: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 u {
@@ -176,7 +179,7 @@ u {
   box-sizing: border-box;
   text-align: center;
   flex-shrink: 0;
-
+  
 }
 .product-card img{
   max-width: 100%;
@@ -194,6 +197,8 @@ u {
   align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
   /* border: 1px solid black; */
 
   /* gap: 40rem; */
@@ -208,6 +213,8 @@ u {
 .fifth-section {
   display: flex;
   justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
 
 }
 
@@ -271,6 +278,8 @@ u {
   justify-content: left;
   align-items: center;
   background-color: #F3F5F7;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .sixth {
@@ -289,7 +298,7 @@ u {
   display: flex;
   align-items: center;
   margin-top: 20px;
-
+  
 
 }
 
@@ -342,24 +351,65 @@ u {
   width: 600px;
   color:green;
 }
-/* footer */
-.foot{
+
+
+.elegant-footer {
+  border: 1px solid black;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #141718;
+  position: relative;
+  bottom: 150px;
+ 
+}
+.upsection {
+  
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
-  height: 200px ;
-  /* background-color: black; */
+}
+.upright {
+  display: flex;
+  gap: 60px;
+}
+.upleft {
+  display: flex;
+  gap: 60px;
+}
+.downsection {
+  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.downright {
+  display: flex;
+  gap: 60px;
+}
+.downleft {
+  display: flex;
+  gap: 60px;
+}
+.font-awesome {
+  display: flex;
+  gap: 30px;
+}
+.left-a {
+  gap: 10px;
+}
+.a {
   color: white;
 }
-.left-footer{
-  display: flex;
-}
-.right-footer{
-  display: flex;
-  /* justify-content: space-around; */
-  border: 1px solid black;
-}
-.e{
-  padding:0 15px;
-  /* margin: 15px; */
+
+
+/* Responsiveness  */
+@media only screen and (max-width: 375px){
+  body{
+    background-color: red;
+  }
 }

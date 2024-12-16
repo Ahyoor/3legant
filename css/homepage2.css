@@ -129,8 +129,8 @@ header .search-bar>button {
     justify-content: space-between;
     margin-top: 15px;
     /* margin-top: 900px; */
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .section3 {
@@ -139,8 +139,8 @@ header .search-bar>button {
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .third-sectiona {
@@ -156,9 +156,9 @@ header .search-bar>button {
 .section4 {
     display: flex;
     justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
-    border: 1px solid red;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* border: 1px solid red; */
     gap: 1rem;
     /* width: 1200px; */
 
@@ -188,7 +188,7 @@ header .search-bar>button {
 .product {
     border: 1px solid transparent;
     width: 70px;
-    background-color: red;
+    /* background-color: red; */
     color: white;
     display: flex;
     justify-content: center;
@@ -227,8 +227,8 @@ header .search-bar>button {
     justify-content: space-between;
     margin-top: 15px;
     margin-bottom: -56px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
     gap: 1rem;
 }
 
@@ -266,8 +266,8 @@ u {
 .section7 {
     display: flex;
     justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
     gap: 1rem;
 
 
@@ -305,8 +305,8 @@ u {
 .section8 {
     display: flex;
     justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
     gap: 1rem;
 
 }
@@ -391,4 +391,91 @@ u {
 .section11 {
     display: flex;
     justify-content: space-between
+}
+
+.eight-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.night-section {
+    margin-top: 80px;
+}
+
+.place {
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+
+.hr {
+    width: 600px;
+    color: green;
+}
+
+/* footer  */
+.elegant-footer {
+    border: 1px solid black;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #141718;
+    position: relative;
+  bottom: 150px
+
+
+}
+
+.upsection {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.upright {
+    display: flex;
+    gap: 60px;
+}
+
+.upleft {
+    display: flex;
+    gap: 60px;
+}
+
+.downsection {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.downright {
+    display: flex;
+    gap: 60px;
+}
+
+.downleft {
+    display: flex;
+    gap: 60px;
+}
+
+.font-awesome {
+    display: flex;
+    gap: 30px;
+}
+
+.left-a {
+    gap: 10px;
+}
+
+.a {
+    color: white;
 }

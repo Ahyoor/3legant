@@ -12,6 +12,12 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
 /* HEADER STYLING */
 header .banner-container {
     background-color: #F3F5F7;

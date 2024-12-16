@@ -25,6 +25,9 @@
   top: 50px;
 
 }
+.middle{
+  color: black;
+}
 .right-signup {
   display: flex;
   justify-content: space-between;
